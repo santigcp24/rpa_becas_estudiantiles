@@ -1,0 +1,56 @@
+# 🚀 Ignorar entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🚀 Ignorar archivos de base de datos
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# 🚀 Ignorar archivos de configuración del entorno
+.env
+*.env
+*.secrets
+config.json
+
+# 🚀 Ignorar archivos de caché y logs
+*.log
+*.out
+*.pid
+logs/
+tmp/
+cache/
+
+# 🚀 Ignorar capturas de pantalla y archivos de texto generados por el OCR
+screenshots/
+text_data/
+*.png
+*.jpg
+*.jpeg
+*.txt
+
+# 🚀 Ignorar archivos de dependencias y paquetes descargados
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 🚀 Ignorar archivos de configuración específicos de VS Code
+.vscode/
+*.code-workspace
+
+# 🚀 Ignorar archivos de dependencias de Python
+requirements.txt
+
+# 🚀 Ignorar archivos de Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 🚀 Ignorar archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
